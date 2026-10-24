@@ -1,0 +1,24 @@
+[app]
+title = LallaFatima AI
+package.name = LallaFatimaAI
+package.domain = ai.lallafatima
+source.dir = app
+source.include_exts = py,html,json
+version = 0.2.0
+requirements = python3,kivy,requests
+orientation = portrait
+
+# Owner branding — appears in Android app info
+app.name = LallaFatima AI
+android.app_name = LallaFatima AI
+android.author = للافاطمة بلهاشمي
+android.author_email = lallafatima@example.com
+android.allow_backup = True
+
+# Built once on GitHub Actions (free) - no Android SDK needed on your phone/PC
+android.api = 34
+android.archs = arm64-v8a
+
+[buildozer]
+log_level = 2
+warn_on_root = 1
